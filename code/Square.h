@@ -5,8 +5,7 @@
 #ifndef STRATEGO_AI_FINAL_PROJECT_SQUARE_H
 #define STRATEGO_AI_FINAL_PROJECT_SQUARE_H
 
-class Square{
-private:
+struct Square{
     bool color;
     char value;
     bool visbility_to_red;

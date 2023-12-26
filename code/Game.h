@@ -14,6 +14,16 @@ using namespace std;
 
 class StrategoGame{
 private:
+    Square Board[10][10];
+    bool is_game_over;
+    bool player_turn;
+    Square *origin;
+    Square *destination;
+    int turn_counter;
+
+public:
+    StrategoGame();
+    void text_output();
 
 };
 
