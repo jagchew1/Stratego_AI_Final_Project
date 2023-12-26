@@ -6,7 +6,7 @@
 #define STRATEGO_AI_FINAL_PROJECT_SQUARE_H
 
 struct Square{
-    bool color;
+    char color;
     char value;
     bool visbility_to_red;
     bool visibility_to_blue;

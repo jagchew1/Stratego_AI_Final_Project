@@ -4,16 +4,10 @@
 
 #include "Game.h"
 
-StrategoGame::StrategoGame() {
-    is_game_over = false;
-    player_turn = true;
-    turn_counter = 0;
-    origin = nullptr;
-    destination = nullptr;
-}
-
-void StrategoGame::text_output() {
-    for(Square i : Board){
-
+void StrategoGame::populate_all(){
+    for(auto & i : Board){
+        for(auto & j : i){
+            j.color = 'R';
+        }
     }
 }
