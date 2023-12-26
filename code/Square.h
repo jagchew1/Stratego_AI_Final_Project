@@ -10,7 +10,8 @@ struct Square{
     char value;
     bool visbility_to_red;
     bool visibility_to_blue;
-    bool is_piece_there;
+    int x;
+    int y;
 };
 
 #endif //STRATEGO_AI_FINAL_PROJECT_SQUARE_H

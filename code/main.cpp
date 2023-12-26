@@ -7,6 +7,6 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     StrategoGame test;
     test.populate_all();
-    test.print();
+    test.print_locations();
     return 0;
 }
