@@ -8,12 +8,13 @@
 #include <array>
 #include <vector>
 #include <iostream>
+#include "Square.h"
 
 using namespace std;
 
 class StrategoGame{
 private:
-    int
+
 };
 
 #endif //STRATEGO_AI_FINAL_PROJECT_GAME_H
